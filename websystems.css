@@ -1,0 +1,314 @@
+/*MAIN CONFIG */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*HOME CONFIG */
+
+#home {
+	background-color: #555B6E;
+	/*background-color: #2E3436;*/
+	/*font-family: */
+	height: 100%px;
+}
+
+/*#D8BFAA*/
+
+#homeheader {
+	width: 100%;
+	height: 70px;
+	background-color: #2E3436;
+}
+	
+#homeheader h1 {
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+}
+
+#homeheader a {
+	text-align: right;
+	padding-top: 10px;
+	padding-left: 50%;
+	color: white;
+}
+
+#homenavbar {
+	margin-bottom: 0px;
+	width: 100%;
+	padding: 15% 0;
+	background: url("Beach.jpg");
+	/* https://lh3.googleusercontent.com/9AtxCn3M4rai_lJDJWm0oa3jrJ6P-y5rkNGUnPA1lrc6PwbTPGpaT5wCNnEyr_l-q9IEsX4=s162 */
+	background-size: cover;
+}
+
+#homenavbar h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#homeselected {
+	background-color: rgba(255, 255, 255, 0.5)
+}
+	
+nav ul {
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgba(240, 240, 255, 0.5);
+	text-align: center;
+	border-radius: 50px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 40px 60px;
+	font-size: 20px;
+	text-transform: uppercae;
+	font-weight: 300;
+	color: #323642;
+	transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 0.5)
+}
+
+#bottombar {
+	padding-top: 10px;
+	background-color: #2E3436;
+	height: 60px;
+}
+
+#bottombar h1 {
+	font-weight: 800;
+	background-color: #2E3436;
+	margin-left: 50%;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+#bottombar a {
+	text-decoration: none;
+	color: white;
+}
+
+#homecontent {
+	background-color: #ECE2D0;
+	text-align: center;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homecontent h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", "Courier", "Verdana";
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#homecontent img {
+	width: 300px;
+	height: 450px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#homecontent table {
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+th, td {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+#homecontent td {
+	margin: 0, auto;
+	padding-right: 20px;
+	font-family: "Garamond", "Courier", "Verdana";
+	padding-top: 10px;
+	font-size: 28px;
+}
+
+#course {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+
+
+/* NAVBAR CONFIG */
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #2E3436;
+}
+	
+.navbar h1 {
+	float: left;
+	display: inline;
+	padding: 10px 10px;
+	color: white;
+}
+
+.navbar ul {
+	padding-top: 10px;
+	padding-left: 50px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar li {
+	background-color: #2E3436;
+	float: left;
+	list-style: none;
+	width: 160px;
+	height: 40px;
+}
+
+.navbar a {
+	display: block;
+	margin-top: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar li:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#selected {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*PAST AND FUTURE SECTION*/
+
+body {
+	background-color: #555B6E;
+	/*background-color: #2E3436;*/
+	/*background-color: #ECE2D0;*/
+}
+
+#pfcontent {
+	width: 80%;
+	font-size: 14;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	background-color: #ECE2D0;
+}
+
+#pfh1 {
+	font-family: "Verdana", "Times New Roman", "Serif";
+	text-align: center;
+}
+
+#pfcontent h3 {
+	font-family: "Serif","Verdana","Calibri";
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.pfimages {
+	padding: 20px;
+	display: block;
+    margin: 0 auto;
+	height: 400px;
+}
+
+#pftext {
+	font-size: 40px;
+	font-weight: 800;
+	text-decoration: underline;
+	font-family: "Verdana","Times New Roman","Calibri";
+}
+
+
+/*COMMENTS SECTION */
+
+#commentscontent {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	background-color: #ECE2D0;
+}
+
+#commentscontent p {
+	margin: auto;
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#commentscontent ul {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+#commentscontent li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.boldlist {
+	font-weight: 800;
+}
+
+#commentindex {
+	text-align: left;
+}
+
+#commentindex li {
+	padding: 10px 0;
+	font-size: 20px;
+	list-style: none;
+}
+
+#comic {
+	font-weight: 600;
+	font-family: "Comic Sans MS", "Courier", "Verdana";
+}
+
+#gara {
+	font-weight: 600;
+	font-size: 20px;
+	font-family: "Garamond", "Courier", "Verdana";
+}
+
+.bigh1 {
+	font-family: "Verdana", "Times New Roman", "Courier";
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 10px;
+	padding-top: 20px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.subh1 {
+	padding-top: 20px;
+}
+
+.boldlist {
+	font-weight: 800;
+}
+
+.commentimages {
+	padding: 20px;
+	display: block;
+    margin: 0 auto;
+	height: 300px;
+}
