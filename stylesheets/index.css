@@ -11,6 +11,7 @@
 	/*background-color: #2E3436;*/
 	/*font-family: */
 	height: 100%px;
+
 }
 
 /*#D8BFAA*/
@@ -38,7 +39,7 @@
 	margin-bottom: 0px;
 	width: 100%;
 	padding: 15% 0;
-	background: url("Beach.jpg");
+	background: url("../images/Beach.jpg");
 	/* https://lh3.googleusercontent.com/9AtxCn3M4rai_lJDJWm0oa3jrJ6P-y5rkNGUnPA1lrc6PwbTPGpaT5wCNnEyr_l-q9IEsX4=s162 */
 	background-size: cover;
 }
@@ -54,7 +55,7 @@
 }
 	
 nav ul {
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: rgba(240, 240, 255, 0.5);
 	text-align: center;
@@ -151,7 +152,7 @@ th, td {
 
 .navbar {
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	background-color: #2E3436;
 }
 	
@@ -165,9 +166,10 @@ th, td {
 .navbar ul {
 	padding-top: 10px;
 	padding-left: 50px;
-	float: left;
-	display: inline-block;
+	/*float: left;*/
+	display: block;
 	text-align: center;
+	/* margin-left: 20%; */
 }
 
 .navbar li {
